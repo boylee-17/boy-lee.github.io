@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <!--제이쿼리오류해결스크립트-->
+<script
+src="https://code.jquery.com/jquery-3.6.0.js"
+integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+crossorigin="anonymous"></script>
+    <!-- 합쳐지고 최소화된 최신 CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+    <!-- 부가적인 테마 -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+    
+    <!-- 합쳐지고 최소화된 최신 자바스크립트 -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <ul class="nav nav-tabs">
+        <li role="presentation"><a href="1week.html">자기소개</a></li>
+        <li role="presentation"><a href="goal.html">목표</a></li>
+        <li role="presentation" class="active"><a href="diary.html">일기장</a></li>
+      </ul>
+    <div class="container">
+    <h2>나의 일기장</h2>
+<form action="my-app" method="GET">
+    <div>
+        <label for="title">제목:</label>
+        <input type="text" id="title" name="title">
+    </div>
+    <div>
+        <label for="feeling">나의 기분:</label>
+        <select>
+            <option value="sunny">화창한</option>
+        </select>
+    </div>
+    <div>
+        <textarea name="text" id="text"
+            cols="30" rows="10"></textarea>
+    </div>
+    <div>
+        <button type="submit">제출</button>
+    </div>
+</form>
+</div>
+</body>
+</html>

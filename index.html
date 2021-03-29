@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>나를 소개하기</title>
+    <!--제이쿼리오류해결스크립트-->
+<script
+  src="https://code.jquery.com/jquery-3.6.0.js"
+  integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+  crossorigin="anonymous"></script>
+    <!-- 합쳐지고 최소화된 최신 CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+<!-- 부가적인 테마 -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+
+<!-- 합쳐지고 최소화된 최신 자바스크립트 -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <ul class="nav nav-tabs">
+        <li role="presentation" class="active"><a href="1week.html">자기소개</a></li>
+        <li role="presentation"><a href="goal.html">목표</a></li>
+        <li role="presentation"><a href="diary.html">일기장</a></li>
+      </ul>
+    <div class="container">
+<h1>이보연을 소개합니다.</h1>
+<h2>국제통상학과 3학년</h2> 
+<form action="my-app" method="GET">
+    <div class="form-group">
+        <label for="userid">아이디:</label>
+        <input type="text" class="form-control" id="userid" name="id"
+                placeholder="아이디를 입력하세요." value="user">
+    </div>
+    <div class="form-group">
+        <label for="userpw">비밀번호:</label>
+        <input type="text" class="form-control" id="userpw" name="pw"
+                placeholder="비밀번호를 입력하세요">
+    </div>
+    <div>
+        <button type="submit" class="btn btn-primary">제출</button>
+    </div>
+</form>
+<h2>날 대표하는 사진</h2>
+<img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FdffGwk%2Fbtq1dAfutcG%2FDg69SaKnBkbGvoklIdvwA1%2Fimg.jpg"
+    alt="image" width="400" height="250">
+<h2>내가 제일 좋아하는 노래</h2>
+<iframe width="400" height="250" src="https://www.youtube.com/embed/hPVJPHXgmx8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+</body>
+</html>
